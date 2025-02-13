@@ -1,0 +1,106 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(194, 194, 194);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.order-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2a9d41;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0px 40px;
+    background-color: #2a9d41;
+    border-bottom: 2px solid #000000;
+   
+}
+
+a {
+    padding: 5px 15px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: rgb(201, 201, 201);
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+footer {
+    background-color: #2a9d41;
+    color: white;
+    padding: 10px;
+    margin-top: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    font-size: small;
+    height: 155px;
+    justify-content: space-evenly;
+  }
+  
+  footer nav a {
+    text-decoration: none;
+    display: flex;
+    margin: 10px;
+  }
+  
+  .logo img {
+    mix-blend-mode: multiply;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    padding: 50px 50px;
+  }
+  
+  .navA {
+    width: 30px;
+    height: 30px;
+  }

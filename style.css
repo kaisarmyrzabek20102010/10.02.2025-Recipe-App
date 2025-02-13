@@ -12,7 +12,7 @@ header {
   color: white;
   height: 80px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 nav ul {

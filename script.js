@@ -25,7 +25,7 @@ function displayMeals(meals) {
                             <h3 class="">${meal.money}<br></h3>
                             calories: <br>
                             ${meal.strCalories}<br>
-                            <button class="but" id='but'><a href="">order</a></button>
+                            <a href="indexz.html"><button class="but" id='but'>order</button></a>
                         </div>
                     </div>
                 </div>

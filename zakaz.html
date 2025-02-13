@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Page</title>
+    <link rel="stylesheet" href="zakaz.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="top">
+      <div class="logo">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS43109tZuNd5BgpGU3QDdiKfuIyUYyN1gF4A&s"
+        />
+      </div>
+      <div class="nav">
+        <a href="./index.html">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About</a>
+        <a href="#">Location</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+
+    <div class="order-container">
+      <h2>Order Details</h2>
+      <form action="/submit-order" method="POST">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Home address"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Phone number</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Your phone number"
+          />
+        </div>
+        <div class="form-group">
+          <label for="order">Your Order</label>
+          <select id="order" name="recipe" required>
+            <option value="recipe1">Recipe 1</option>
+            <option value="recipe2">Recipe 2</option>
+            <option value="recipe3">Recipe 3</option>
+            <option value="recipe4">Recipe 4</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="special-request">Special Requests</label>
+          <textarea
+            id="special-request"
+            name="special_request"
+            rows="4"
+            placeholder="Any special requests?"
+          ></textarea>
+        </div>
+        <a href="index1.html"
+          ><button id="order-btn" type="submit">Pay To Order</button></a
+        >
+      </form>
+    </div>
+    <footer>
+      <div>
+        <h2>Social Network</h2>
+        <nav>
+          <a
+            ><img
+              class="navA"
+              src="https://static.promopult.ru/uploads/library/img/twitter.png"
+            />twitter</a
+          >
+          <a
+            ><img
+              class="navA"
+              src="https://store-images.s-microsoft.com/image/apps.30645.9007199266245907.cb06f1f9-9154-408e-b4ef-d19f2325893b.ac3b465e-4384-42a8-9142-901c0405e1bc"
+            />Facebook</a
+          >
+          <a>
+            <img
+              class="navA"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png"
+            />Instagram</a
+          >
+        </nav>
+      </div>
+
+      <div>
+        <h2>useful links</h2>
+        <nav>
+          <a href="">About us</a>
+          <a href="">Contact us</a>
+        </nav>
+      </div>
+
+      <p>&copy; 2025 Tasty recipes</p>
+    </footer>
+    <script>
+      const orderButton = document.getElementById(".order-btn");
+      orderButton.addEventListener("click", () => {
+        alert(`Сіз ${quantity} дана CheeseBurger тапсырыс бердіңіз.`);
+      });
+    </script>
+  </body>
+</html>
