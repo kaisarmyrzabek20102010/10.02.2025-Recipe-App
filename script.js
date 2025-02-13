@@ -18,16 +18,14 @@ function displayMeals(meals) {
   meals.forEach((meal) => {
     const mealCard = `
             <div class="card" data-name="${meal.strMeal.toLowerCase()}">
-                <img src="${meal.strMealThumb}" alt="${meal.strMeal}"> 
+                <img class='imglar' src="${meal.strMealThumb}" alt="${meal.strMeal}"> 
                 <div class="card-content">
                     <h3>${meal.strMeal}</h3> 
                         <div class="icon">
-                            Калория мөлшері: <br>
+                            <h3 class="">${meal.money}<br></h3>
+                            calories: <br>
                             ${meal.strCalories}<br>
-                            <p class='zoz'>инструкция:<br>${
-                              meal.strInstructions
-                            }</p>
-                            ${meal.strTags} 
+                            <button class="but" id='but'><a href="">order</a></button>
                         </div>
                     </div>
                 </div>
@@ -36,6 +34,7 @@ function displayMeals(meals) {
     container.innerHTML += mealCard;
   });
 }
+
 
 function filterMeals() {
   const searchInput = document.getElementById("search").value.toLowerCase();

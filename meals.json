@@ -1,82 +1,148 @@
 {
-    "meals": [
-      {
-        "idMeal": "53061",
-        "strMeal": "Fresh Sardines",
-        "strCategory": "Side",
-        "strArea": "Croatian",
-        "strInstructions": "Wash the fish under the cold tap. Roll in the flour and deep fry in oil until crispy. Lay on kitchen towel to get rid of the excess oil and serve hot or cold with a slice of lemon.",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/nv5lf31628771380.jpg",
-        "strTags": "Fresh",
-        "strTime": "20 min",
-        "strCalories": "140 kcal"
-      },
-      {
-        "idMeal": "52796",
-        "strMeal": "Chicken Alfredo",
-        "strCategory": "Main",
-        "strArea": "Italian",
-        "strInstructions": "Cook the pasta and set aside. In a pan, melt butter, add garlic, and cook chicken. Stir in cream and Parmesan cheese. Mix with pasta and serve hot.",
-        "strMealThumb": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2023-06-chicken-alfredo-pasta-reshoot%2Fchicken-alfredo-pasta-2-vertical",
-        "strTags": "Creamy",
-        "strTime": "30 min",
-        "strCalories": "600 kcal"
-      },
-      {
-        "idMeal": "53013",
-        "strMeal": "Beef Stroganoff",
-        "strCategory": "Main",
-        "strArea": "Russian",
-        "strInstructions": "Slice beef into strips, sauté in butter, add onions and mushrooms, and cook with sour cream. Serve over egg noodles or rice.",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/mlchx21564916997.jpg",
-        "strTags": "Savory",
-        "strTime": "35 min",
-        "strCalories": "550 kcal"
-      },
-      {
-        "idMeal": "52777",
-        "strMeal": "Tuna Nicoise Salad",
-        "strCategory": "Salad",
-        "strArea": "French",
-        "strInstructions": "Combine tuna, boiled eggs, green beans, tomatoes, and olives with a simple vinaigrette. Serve chilled.",
-        "strMealThumb": "https://www.simplyrecipes.com/thmb/P1zvV395CKAZSOj6QKbK7u46fgQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Nicoise-Salad-LEAD-10-142a737d4d3541f28c5bc330355b2f65.jpg",
-        "strTags": "Healthy",
-        "strTime": "25 min",
-        "strCalories": "320 kcal"
-      },
-      {
-        "idMeal": "52929",
-        "strMeal": "Spaghetti Carbonara",
-        "strCategory": "Pasta",
-        "strArea": "Italian",
-        "strInstructions": "Cook spaghetti, then mix with eggs, cheese, pancetta, and black pepper. Serve immediately.",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/wtsvxx1511296896.jpg",
-        "strTags": "Classic",
-        "strTime": "20 min",
-        "strCalories": "550 kcal"
-      },
-      {
-        "idMeal": "52897",
-        "strMeal": "Grilled Salmon",
-        "strCategory": "Main",
-        "strArea": "American",
-        "strInstructions": "Season salmon with salt, pepper, and lemon. Grill until cooked through. Serve with vegetables or rice.",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/uuyrrx1487327597.jpg",
-        "strTags": "Healthy",
-        "strTime": "30 min",
-        "strCalories": "400 kcal"
-      },
-      {
-        "idMeal": "52954",
-        "strMeal": "Vegetable Stir Fry",
-        "strCategory": "Vegetarian",
-        "strArea": "Asian",
-        "strInstructions": "Sauté mixed vegetables in sesame oil with garlic and soy sauce. Serve with rice or noodles.",
-        "strMealThumb": "https://www.themealdb.com/images/media/meals/xxpqsy1511452222.jpg",
-        "strTags": "Vegan",
-        "strTime": "15 min",
-        "strCalories": "280 kcal"
-      }
-    ]
-  }
-  
+  "meals": [
+    {
+      "idMeal": "10001",
+      "strMeal": "Cheeseburger",
+      "strCategory": "Main",
+      "strArea": "American",
+      "strInstructions": "Grill the beef patty until cooked. Melt cheddar cheese on top. Toast the bun and assemble with lettuce, tomato, pickles, and special sauce. Serve hot with fries.",
+      "strMealThumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEJiNX0GZfl21raOShpI3p-W8CkdBITCCwAQ&s",
+      "strTags": "Burger,Cheese,Grilled",
+      "strTime": "15 min",
+      "strCalories": "800 kcal",
+      "money": "2.5$"
+    },
+    {
+      "idMeal": "10002",
+      "strMeal": "Chicken Nuggets",
+      "strCategory": "Snack",
+      "strArea": "American",
+      "strInstructions": "Coat chicken pieces in seasoned batter and deep-fry until golden brown. Serve hot with dipping sauces.",
+      "strMealThumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2m5h9eUQigMzHslpLCCDVed7kr263906LBw&s",
+      "strTags": "Crispy,Fried,Snack",
+      "strTime": "10 min",
+      "strCalories": "500 kcal",
+      "money": "2.5$"
+    },
+    {
+      "idMeal": "10003",
+      "strMeal": "Pepperoni Pizza",
+      "strCategory": "Main",
+      "strArea": "Italian",
+      "strInstructions": "Spread tomato sauce over pizza dough, add mozzarella cheese, and top with pepperoni slices. Bake at 450°F until cheese is melted and crust is golden.",
+      "strMealThumb": "https://img.freepik.com/premium-photo/sliced-peperoni-pizza-with-salami_219193-6494.jpg?w=360  ",
+      "strTags": "Pizza,Cheese,FastFood",
+      "strTime": "25 min",
+      "strCalories": "900 kcal",
+      "money": "2.5$"
+    },
+    {
+      "idMeal": "10004",
+      "strMeal": "French Fries",
+      "strCategory": "Side",
+      "strArea": "American",
+      "strInstructions": "Cut potatoes into thin strips, deep-fry in hot oil until crispy, and season with salt. Serve with ketchup or mayonnaise.",
+      "strMealThumb": "https://pizzabruno.az/wp-content/uploads/2018/06/Toyuq-%C3%A7ubuqlar%C4%B1-kartof-fri-il%C9%99.jpg",
+      "strTags": "Crispy,Fried,Side",
+      "strTime": "15 min",
+      "strCalories": "450 kcal",
+      "money": "2.5$"
+    },
+    {
+      "idMeal": "10005",
+      "strMeal": "Fried Chicken",
+      "strCategory": "Main",
+      "strArea": "American",
+      "strInstructions": "Season chicken pieces, coat in seasoned flour, and deep-fry until golden brown and crispy. Serve hot.",
+      "strMealThumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPK5vHLFn3BZiM3eQuMf33INLYluE3JqJO-A&s",
+      "strTags": "Chicken,Fried,Crunchy",
+      "strTime": "30 min",
+      "strCalories": "1000 kcal",
+      "money": "2.5$"
+    },
+    {
+      "idMeal": "10006",
+      "strMeal": "Milkshake",
+      "strCategory": "Drink",
+      "strArea": "American",
+      "strInstructions": "Blend ice cream, milk, and flavored syrup until smooth. Serve in a tall glass with whipped cream and a cherry on top.",
+      "strMealThumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfRATzuR40ez67uaODb5z02Ebt-6gXYmFhIw&s",
+      "strTags": "Sweet,Drink,Dessert",
+      "strTime": "5 min",
+      "strCalories": "600 kcal",
+      "money": "2.5$"
+    },
+    {
+      "idMeal": "10007",
+      "strMeal": "Hot Dog",
+      "strCategory": "Snack",
+      "strArea": "American",
+      "strInstructions": "Grill or boil the sausage. Place in a bun and top with mustard, ketchup, onions, and relish.",
+      "strMealThumb": "https://www.seriouseats.com/thmb/QJZXQHDXBfTiUSKstQ1uskJc31g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SEA-best-grilled-hot-dogs-recipe-hero-02-9d245c0d43874a3da13a7228682b0dce.jpg",
+      "strTags": "Snack,Grilled,StreetFood",
+      "strTime": "10 min",
+      "strCalories": "550 kcal",
+      "money": "2.5$"
+    },
+    {
+      "idMeal": "10008",
+      "strMeal": "BBQ Ribs",
+      "strCategory": "Main",
+      "strArea": "American",
+      "strInstructions": "Slow-cook ribs with seasoning, then coat in BBQ sauce and grill until caramelized. Serve with coleslaw.",
+      "strMealThumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6OJSIWX_egVSkbSlEb0xfmZm0WkTIjP6qpw&s ",
+      "strTags": "BBQ,Grilled,Meat",
+      "strTime": "2 hrs",
+      "strCalories": "1500 kcal",
+      "money": "2.5$"
+    },
+    {
+      "idMeal": "10009",
+      "strMeal": "Onion Rings",
+      "strCategory": "Side",
+      "strArea": "American",
+      "strInstructions": "Dip thick onion slices in batter and deep-fry until golden brown. Serve hot with dipping sauce.",
+      "strMealThumb": "https://i.ytimg.com/vi/e2RrJwFHbgA/maxresdefault.jpg",
+      "strTags": "Crunchy,Fried,Side",
+      "strTime": "15 min",
+      "strCalories": "400 kcal",
+      "money": "2.5$"
+    },
+    {
+      "idMeal": "10010",
+      "strMeal": "Mozzarella Sticks",
+      "strCategory": "Snack",
+      "strArea": "American",
+      "strInstructions": "Coat mozzarella cheese sticks in breadcrumbs and deep-fry until golden brown. Serve with marinara sauce.",
+      "strMealThumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVLnQh0f3l4cKk3_x8fkoipa5cBfseMopDRQ&s",
+      "strTags": "Cheesy,Snack,Fried",
+      "strTime": "15 min",
+      "strCalories": "480 kcal",
+      "money": "2.5$"
+    },
+    {
+      "idMeal": "10011",
+      "strMeal": "Taco Supreme",
+      "strCategory": "Main",
+      "strArea": "Mexican",
+      "strInstructions": "Fill a taco shell with seasoned beef, lettuce, cheese, tomatoes, and sour cream. Serve with salsa.",
+      "strMealThumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqd-6iSha-5cnHC3ROJlIrLZWe69tYQ2ENoA&s",
+      "strTags": "Mexican,Spicy,FastFood",
+      "strTime": "20 min",
+      "strCalories": "650 kcal",
+      "money": "2.5$"
+    },
+    {
+      "idMeal": "10012",
+      "strMeal": "Chocolate Brownie",
+      "strCategory": "Dessert",
+      "strArea": "American",
+      "strInstructions": "Mix cocoa, sugar, flour, eggs, and butter. Bake until set and serve warm with ice cream.",
+      "strMealThumb": "https://chocolatecoveredkatie.com/wp-content/uploads/2022/11/Vegan-Brownies.jpg",
+      "strTags": "Sweet,Chocolate,Dessert",
+      "strTime": "40 min",
+      "strCalories": "700 kcal",
+      "money": "2.5$"
+    }
+  ]
+}

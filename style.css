@@ -7,9 +7,12 @@ body {
 }
 
 header {
-  background-color: #ff6b6b;
-  padding: 20px;
+  background-color: #2a9d41;
+  padding: 10px;
   color: white;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav ul {
@@ -23,13 +26,14 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 18px;
+  transition: 0.2s;
 }
 
-.zoz {
-  font-size: x-small;
+nav ul li a:hover {
+  color: rgb(129, 113, 113);
 }
 
 .recipes {
@@ -52,13 +56,14 @@ nav ul li a {
   max-width: 200px;
 }
 
-.card img {
-  width: 100%;
-  border-radius: 8px;
+.imglar {
+  width: 200px;
+  height: 150px;
+  border-radius: 7px;
 }
 
 footer {
-  background-color: #ff6b6b;
+  background-color: RGB(218, 165, 32);
   color: white;
   padding: 10px;
   margin-top: 200px;
@@ -74,6 +79,7 @@ footer nav a {
   text-decoration: none;
   display: flex;
   margin: 10px;
+  color: white;
 }
 
 .logo img {
@@ -87,4 +93,41 @@ footer nav a {
 .navA {
   width: 30px;
   height: 30px;
+}
+
+.but a {
+  text-decoration: none;
+  color: black;
+}
+
+.but {
+  border: 1px solid grey;
+  border-radius: 10px;
+  background: #43d73e;
+  padding: 10px;
+  margin-top: 10px;
+  transition: 0.2s;
+  width: 80px;
+}
+
+.but:hover {
+  transform: scaleX(1.2);
+}
+
+.logotop {
+  mix-blend-mode: multiply;
+}
+
+.logotop img {
+  width: 90px;
+  height: 90px;
+}
+
+.a {
+  border: none;
+  padding: 7px;
+  background: #159fef;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
 }
