@@ -29,8 +29,7 @@ function displayMeals(meals) {
                         </div>
                     </div>
                 </div>
-            </div>
-        `;
+            </div>`;
     container.innerHTML += mealCard;
   });
 }
